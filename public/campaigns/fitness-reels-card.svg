@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" fill="none">
+  <defs>
+    <linearGradient id="reelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="480" rx="16" fill="url(#reelGrad)"/>
+  <rect x="1" y="1" width="798" height="478" rx="15" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Left Side: Smartphone / Reels Mockup Frame (9:16 Aspect) -->
+  <g transform="translate(60, 30)">
+    <!-- Phone body -->
+    <rect width="240" height="420" rx="28" fill="url(#phoneGrad)" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="2"/>
+    <!-- Dynamic Island / Speaker notch -->
+    <rect x="85" y="10" width="70" height="12" rx="6" fill="#0B1020"/>
+    
+    <!-- Reel Video Simulation Screen -->
+    <rect x="10" y="30" width="220" height="375" rx="18" fill="#131C31"/>
+    
+    <!-- Fitness action illustration in screen -->
+    <circle cx="120" cy="120" r="28" fill="#38BDF8" fill-opacity="0.2"/>
+    <path d="M120 102 L120 138 M105 118 L135 118" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Captions Overlay -->
+    <rect x="25" y="170" width="170" height="34" rx="6" fill="#0B1020" fill-opacity="0.85" stroke="#38BDF8" stroke-opacity="0.3"/>
+    <text x="110" y="192" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">STOP SKIPPING FORM 🔥</text>
+    
+    <rect x="35" y="212" width="150" height="24" rx="4" fill="#A3E635" fill-opacity="0.9"/>
+    <text x="110" y="228" fill="#0B1020" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">3 Mistakes to Avoid</text>
+
+    <!-- Side Action Buttons (Like, Comment, Share) -->
+    <g transform="translate(195, 230)">
+      <circle cx="12" cy="12" r="10" fill="#0B1020" fill-opacity="0.6"/>
+      <path d="M12 8 C10 6 7 7 7 10 C7 14 12 17 12 17 C12 17 17 14 17 10 C17 7 14 6 12 8 Z" fill="#EF4444"/>
+      <circle cx="12" cy="40" r="10" fill="#0B1020" fill-opacity="0.6"/>
+      <circle cx="12" cy="68" r="10" fill="#0B1020" fill-opacity="0.6"/>
+    </g>
+
+    <!-- Creator info on Reel footer -->
+    <g transform="translate(20, 340)">
+      <circle cx="12" cy="12" r="10" fill="#A3E635"/>
+      <text x="12" y="16" fill="#0B1020" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">T</text>
+      <text x="30" y="16" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">@thiru.fitness</text>
+      <text x="30" y="32" fill="#94A3B8" font-family="sans-serif" font-size="10">🎵 Original Audio • CapCut Pacing</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Workflow & Technique Breakdown -->
+  <g transform="translate(340, 50)">
+    <rect width="125" height="26" rx="13" fill="#38BDF8" fill-opacity="0.15"/>
+    <text x="62" y="18" fill="#38BDF8" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">PERSONAL PROJECT</text>
+
+    <text x="0" y="65" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">Fitness Content Creation</text>
+    <text x="0" y="90" fill="#94A3B8" font-family="sans-serif" font-size="13">End-to-end short-form vertical video production pipeline</text>
+
+    <!-- Step 1 -->
+    <rect x="0" y="120" width="410" height="56" rx="10" fill="#131C31" stroke="#1E293B"/>
+    <circle cx="28" cy="148" r="14" fill="#38BDF8" fill-opacity="0.2"/>
+    <text x="28" y="153" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">01</text>
+    <text x="56" y="142" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">Strong Hook Formulation (0-3s)</text>
+    <text x="56" y="160" fill="#94A3B8" font-family="sans-serif" font-size="11">Visual motion & high-contrast questions to arrest scrolling.</text>
+
+    <!-- Step 2 -->
+    <rect x="0" y="188" width="410" height="56" rx="10" fill="#131C31" stroke="#1E293B"/>
+    <circle cx="28" cy="216" r="14" fill="#38BDF8" fill-opacity="0.2"/>
+    <text x="28" y="221" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">02</text>
+    <text x="56" y="210" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">CapCut / Premiere Editing</text>
+    <text x="56" y="228" fill="#94A3B8" font-family="sans-serif" font-size="11">Aggressive pause cuts, beat synchronization & kinetic subs.</text>
+
+    <!-- Step 3 -->
+    <rect x="0" y="256" width="410" height="56" rx="10" fill="#131C31" stroke="#1E293B"/>
+    <circle cx="28" cy="284" r="14" fill="#A3E635" fill-opacity="0.2"/>
+    <text x="28" y="289" fill="#A3E635" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">03</text>
+    <text x="56" y="278" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">Distribution & Retention Review</text>
+    <text x="56" y="296" fill="#94A3B8" font-family="sans-serif" font-size="11">Observing audience drop-off points to optimize next cut.</text>
+
+    <!-- Footer tool tags -->
+    <rect x="0" y="340" width="410" height="42" rx="8" fill="#0B1020" stroke="#1E293B"/>
+    <text x="16" y="366" fill="#94A3B8" font-family="sans-serif" font-size="11">Tools: <tspan fill="#FFFFFF">CapCut</tspan> • <tspan fill="#FFFFFF">Premiere Pro</tspan> • <tspan fill="#FFFFFF">Instagram Reels</tspan></text>
+  </g>
+</svg>

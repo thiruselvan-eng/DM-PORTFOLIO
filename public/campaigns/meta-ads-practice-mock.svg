@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1628"/>
+      <stop offset="100%" stop-color="#080D1A"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A3E635" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#A3E635" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="520" rx="16" fill="url(#bgGrad2)"/>
+  <rect x="1" y="1" width="898" height="518" rx="15" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="900" height="50" rx="16" fill="#111827"/>
+  <circle cx="28" cy="25" r="5" fill="#EF4444"/>
+  <circle cx="46" cy="25" r="5" fill="#F59E0B"/>
+  <circle cx="64" cy="25" r="5" fill="#10B981"/>
+  <text x="90" y="30" fill="#94A3B8" font-family="'Space Grotesk', sans-serif" font-size="13">Meta Ads Manager — Campaign Reporting Dashboard (Practice Campaign)</text>
+  <rect x="760" y="12" width="116" height="26" rx="6" fill="#A3E635" fill-opacity="0.15"/>
+  <text x="818" y="29" fill="#A3E635" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">VERIFIED DATA</text>
+
+  <!-- Big Stat Cards Row -->
+  <!-- Card 1 -->
+  <rect x="30" y="70" width="195" height="110" rx="12" fill="#131C33" stroke="#1E293B"/>
+  <text x="50" y="100" fill="#94A3B8" font-family="sans-serif" font-size="12">Total Spend</text>
+  <text x="50" y="142" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700">₹99.00</text>
+  <text x="50" y="165" fill="#A3E635" font-family="sans-serif" font-size="11">Budget Cap Reached</text>
+
+  <!-- Card 2 -->
+  <rect x="245" y="70" width="195" height="110" rx="12" fill="#131C33" stroke="#1E293B"/>
+  <text x="265" y="100" fill="#94A3B8" font-family="sans-serif" font-size="12">Unique Reach</text>
+  <text x="265" y="142" fill="#38BDF8" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700">4,928</text>
+  <text x="265" y="165" fill="#94A3B8" font-family="sans-serif" font-size="11">Target Audience Pool</text>
+
+  <!-- Card 3 -->
+  <rect x="460" y="70" width="195" height="110" rx="12" fill="#131C33" stroke="#1E293B"/>
+  <text x="480" y="100" fill="#94A3B8" font-family="sans-serif" font-size="12">Impressions</text>
+  <text x="480" y="142" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700">5,135</text>
+  <text x="480" y="165" fill="#94A3B8" font-family="sans-serif" font-size="11">Frequency: 1.04</text>
+
+  <!-- Card 4 -->
+  <rect x="675" y="70" width="195" height="110" rx="12" fill="#131C33" stroke="#A3E635" stroke-opacity="0.5"/>
+  <text x="695" y="100" fill="#A3E635" font-family="sans-serif" font-size="12" font-weight="600">ThruPlays (Result)</text>
+  <text x="695" y="142" fill="#A3E635" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700">1,354</text>
+  <text x="695" y="165" fill="#A3E635" font-family="sans-serif" font-size="11">Cost: ₹0.07/view</text>
+
+  <!-- Chart Area -->
+  <rect x="30" y="200" width="840" height="210" rx="12" fill="#11182A" stroke="#1E293B"/>
+  <text x="50" y="230" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600">ThruPlay Hourly Delivery Pacing (Illustrative Visualization)</text>
+  
+  <!-- Simulated graph line -->
+  <path d="M 60 370 Q 180 340, 260 320 T 420 270 T 580 250 T 720 230 T 840 220" stroke="#A3E635" stroke-width="3" fill="none"/>
+  <path d="M 60 370 Q 180 340, 260 320 T 420 270 T 580 250 T 720 230 T 840 220 L 840 380 L 60 380 Z" fill="url(#chartGrad)"/>
+  
+  <!-- Dots on graph -->
+  <circle cx="260" cy="320" r="4" fill="#A3E635"/>
+  <circle cx="420" cy="270" r="4" fill="#A3E635"/>
+  <circle cx="580" cy="250" r="4" fill="#A3E635"/>
+  <circle cx="720" cy="230" r="4" fill="#A3E635"/>
+  <circle cx="840" cy="220" r="5" fill="#FFFFFF" stroke="#A3E635" stroke-width="2"/>
+
+  <!-- Legend & Info Bar -->
+  <rect x="30" y="430" width="840" height="60" rx="10" fill="#0D1424" stroke="#1E293B"/>
+  <text x="50" y="465" fill="#94A3B8" font-family="sans-serif" font-size="13">
+    <tspan fill="#A3E635" font-weight="bold">Note:</tspan> To display your raw Meta Ads Manager export file, drop your screenshot into <tspan fill="#FFFFFF" font-family="monospace">public/campaigns/meta-ads-screenshot.png</tspan>.
+  </text>
+</svg>
